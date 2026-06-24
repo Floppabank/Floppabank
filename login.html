@@ -75,7 +75,26 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <button type="submit">Войти</button>
-            <button type="submit">Загрузить с устройства</button>
+            <a href="home.html" class="blue-button">Перейти на страницу</a>
+
+<style>
+.blue-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; /* Синий цвет */
+    color: white; /* Белый текст */
+    text-decoration: none; /* Без подчеркивания */
+    border-radius: 5px; /* Скругленные углы */
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3; /* Темно-синий при наведении */
+}
+</style>
+
         </form>
         <div id="errorMessage" class="error"></div>
     </div>
